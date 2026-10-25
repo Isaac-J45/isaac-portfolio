@@ -18,7 +18,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 90px; }
 body {
   margin: 0;
   color: var(--ink);
-  background: var(#0B1F35);
+  background: var(--white);
   font-family: 'DM Sans', Arial, sans-serif;
   line-height: 1.65;
 }
