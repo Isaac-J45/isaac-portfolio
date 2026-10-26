@@ -142,3 +142,17 @@ h2 { margin-bottom: 16px; font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 800;
   .project-art { height: 210px; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
 }
+.project-video {
+  width: 100%;
+  min-height: 240px;
+  padding: 0;
+  overflow: hidden;
+  background: #07111F;
+}
+
+.project-video video {
+  display: block;
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+}
